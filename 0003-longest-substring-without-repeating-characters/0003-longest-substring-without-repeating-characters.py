@@ -1,18 +1,26 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        N, d, left = len(s), {}, 0
-
-        ans = 0
-
-        for right in range(N):
-            d[s[right]] = d.get(s[right], 0) + 1
-
-            while left < right and right - left + 1 != len(d.keys()):
-                d[s[left]] -= 1
-                if d[s[left]] == 0:
-                    del d[s[left]]
-                left += 1
-
-            ans = max(ans, right - left + 1)
-
-        return ans
+        # 저장용 변수
+        if len(s) == 0: return 0
+        checker = dict()
+        start = 0
+        cnt = [0 for x in range(len(s))]
+        for i in range(len(s)):
+            # 중복이 아닐때
+            if s[i] not in checker:
+                checker[s[i]] = i
+                if i == 0:
+                    cnt[i] = 1
+                else:
+                    cnt[i] = cnt[i-1] + 1
+            else:
+                # 중복이지만 문자열에 포함은 안될때
+                if checker[s[i]] < start:
+                    checker[s[i]] = i
+                    cnt[i] = cnt[i-1] + 1
+                # 중복이면서 문자열에 포함될때
+                else:
+                    cnt[i] = i - checker[s[i]]
+                    start = checker[s[i]] + 1
+                    checker[s[i]] = i
+        return max(cnt)
