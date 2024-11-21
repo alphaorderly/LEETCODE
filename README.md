@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/alphaorderly/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [0680-valid-palindrome-ii](https://github.com/alphaorderly/LEETCODE/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 ## Dynamic Programming
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0680-valid-palindrome-ii](https://github.com/alphaorderly/LEETCODE/tree/master/0680-valid-palindrome-ii) |
 | [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 ## Hash Table
 |  |
@@ -48,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/alphaorderly/LEETCODE/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
