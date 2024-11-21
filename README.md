@@ -15,11 +15,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/alphaorderly/LEETCODE/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Two Pointers
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/alphaorderly/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -28,8 +30,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/alphaorderly/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/alphaorderly/LEETCODE/tree/master/0042-trapping-rain-water) |
+## String
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
