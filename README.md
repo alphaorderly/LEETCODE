@@ -38,5 +38,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0874-backspace-string-compare](https://github.com/alphaorderly/LEETCODE/tree/master/0874-backspace-string-compare) |
+## Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
