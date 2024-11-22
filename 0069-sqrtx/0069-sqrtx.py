@@ -17,8 +17,6 @@ class Solution:
         for i in range(20):
             prev = init
             init = n_r(init)
-            if abs(((init - prev) / init) * 100.0) < 0.0005:
-                break
 
         return floor(init)
         
