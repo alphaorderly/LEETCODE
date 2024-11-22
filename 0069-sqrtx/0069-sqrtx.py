@@ -11,12 +11,9 @@ class Solution:
         def n_r(c: float):
             return c - (f(c) / f_d(c))
 
-        prev = x / 2 + 1
         init = x / 2 + 1
 
-        for i in range(20):
-            prev = init
+        for i in range(19):
             init = n_r(init)
 
         return floor(init)
-        
