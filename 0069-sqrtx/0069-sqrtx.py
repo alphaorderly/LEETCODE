@@ -2,23 +2,23 @@ from math import floor
 
 class Solution:
     def mySqrt(self, x: int) -> int:
-        def f(c: float):
-            return c ** 2 - x
 
-        def f_d(c: float):
-            return 2 * c
+        if x == 1:
+            return 1
 
-        def n_r(c: float):
-            return c - (f(c) / f_d(c))
+        left = 0
 
-        prev = x / 2 + 1
-        init = x / 2 + 1
+        right = x
 
-        for i in range(100):
-            prev = init
-            init = n_r(init)
-            if abs(((init - prev) / init) * 100.0) < 0.0005:
-                break
+        ans = 0
 
-        return floor(init)
-        
+        while left <= right:
+            mid = (left + right) // 2
+
+            if mid ** 2 > x:
+                right = mid - 1
+            else:
+                ans = mid
+                left = mid + 1
+
+        return ans
