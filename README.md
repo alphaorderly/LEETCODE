@@ -7,10 +7,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/alphaorderly/LEETCODE/tree/master/0042-trapping-rain-water) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/alphaorderly/LEETCODE/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/alphaorderly/LEETCODE/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Matrix
 |  |
 | ------- |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/alphaorderly/LEETCODE/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/alphaorderly/LEETCODE/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Simulation
 |  |
@@ -46,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/alphaorderly/LEETCODE/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/alphaorderly/LEETCODE/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 ## Sliding Window
 |  |
 | ------- |
