@@ -3,9 +3,10 @@ class Solution:
         patterns = defaultdict(int)
 
         for row in matrix:
-            rev_row = [1 if n == 0 else 0 for n in row]
+            rev_row = tuple(1 if n == 0 else 0 for n in row)
 
-            patterns[str(row)] += 1
-            patterns[str(rev_row)] += 1
+            patterns[tuple(row)] += 1
+            patterns[rev_row] += 1
+
 
         return max(patterns.values())
