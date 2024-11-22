@@ -57,4 +57,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/alphaorderly/LEETCODE/tree/master/0680-valid-palindrome-ii) |
+## Math
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/alphaorderly/LEETCODE/tree/master/0069-sqrtx) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/alphaorderly/LEETCODE/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
