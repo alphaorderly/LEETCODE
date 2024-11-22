@@ -1,19 +1,11 @@
-from math import floor
+from math import e, log
+
 
 class Solution:
     def mySqrt(self, x: int) -> int:
-        def f(c: float):
-            return c ** 2 - x
+        if x < 2:
+            return x
 
-        def f_d(c: float):
-            return 2 * c
-
-        def n_r(c: float):
-            return c - (f(c) / f_d(c))
-
-        init = x / 2 + 1
-
-        for i in range(19):
-            init = n_r(init)
-
-        return floor(init)
+        left = int(e ** (0.5 * log(x)))
+        right = left + 1
+        return left if right * right > x else right
